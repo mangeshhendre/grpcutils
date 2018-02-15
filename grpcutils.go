@@ -10,10 +10,10 @@ import (
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/grpc-ecosystem/go-grpc-middleware/auth"
+	"github.com/mangeshhendre/grpcjwt"
+	"github.com/mangeshhendre/jwtauthfunc"
+	"github.com/mangeshhendre/jwtclient"
 	logxi "github.com/mgutz/logxi/v1"
-	"golang.sgpdev.com/grpcjwt"
-	"golang.sgpdev.com/jwtauthfunc"
-	"golang.sgpdev.com/jwtclient"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/credentials"
